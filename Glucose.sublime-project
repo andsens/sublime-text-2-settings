@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/anders/Workspace/Glucose",
+			"folder_exclude_patterns": [".settings"],
+			"file_exclude_patterns": [".project", ".buildpath"]
+		}
+	]
+}
