@@ -1,0 +1,10 @@
+[
+	// Line & block manipulation
+	{
+		"command": "swap_line_up",
+		"keys": ["alt+up"]
+	}, {
+		"command": "swap_line_down",
+		"keys": ["alt+down"]
+	}
+]

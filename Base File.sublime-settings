@@ -1,11 +1,15 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-	"font_face": "Bitstream Vera Sans Mono",
-	"font_size": 13,
-	"font_options": ["subpixel_antialias"],
-	"remember_open_files": true,
 	"auto_indent": true,
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"draw_indent_guides": true,
 	"draw_white_space": true,
+	"font_face": "Bitstream Vera Sans Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 11,
 	"highlight_line": true,
+	"remember_open_files": true,
 	"shift_tab_unindent": true
 }
