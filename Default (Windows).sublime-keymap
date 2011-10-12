@@ -1,12 +1,2 @@
 [
-	// Line & block manipulation
-	{
-		"command": "run_macro_file",
-		"keys": ["ctrl+d"] ,
-		"args": {"file": "Packages/Default/Delete Line.sublime-macro"}
-	}, {
-		"command": "toggle_comment", 
-		"keys": ["ctrl+shift+c"],
-		"args": { "block": false }
-	}
 ]
