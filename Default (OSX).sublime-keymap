@@ -1,12 +1,29 @@
 [
+	// General bindings
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
+	{ "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	
 	// Line & block manipulation
-	{
-		"command": "run_macro_file",
-		"keys": ["super+d"] ,
-		"args": {"file": "Packages/Default/Delete Line.sublime-macro"}
-	}, {
-		"command": "toggle_comment", 
-		"keys": ["super+shift+c"],
-		"args": { "block": false }
-	}
+	{ "keys": ["super+d"], "command": "run_macro_file",
+	  "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	
+	{ "keys": ["super+shift+c"], "command": "toggle_comment",
+	  "args": { "block": false } },
+	
+	{ "keys": ["super+alt+c"], "command": "toggle_comment",
+	  "args": { "block": true } },
+	
+	// Unbind defaults
+	{ "keys": ["super+ctrl+p"], "command": null },
+	{ "keys": ["super+forward_slash"], "command": null },
+	{ "keys": ["super+alt+forward_slash"], "command": null },
+	{ "keys": ["ctrl+super+up"], "command": null },
+	{ "keys": ["ctrl+super+down"], "command": null },
+	// { "keys": ["super+shift+p"], "command": null },
+	
+	// Unbind base
+	{ "keys": ["ctrl+d"], "command": null },
+	{ "keys": ["ctrl+shift+c"], "command": null },
+	{ "keys": ["ctrl+alt+c"], "command": null }
+	
 ]

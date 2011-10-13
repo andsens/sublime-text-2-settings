@@ -1,10 +1,18 @@
 [
 	// Line & block manipulation
-	{
-		"command": "swap_line_up",
-		"keys": ["alt+up"]
-	}, {
-		"command": "swap_line_down",
-		"keys": ["alt+down"]
-	}
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down"	},
+	{ "keys": ["ctrl+d"], "command": "run_macro_file",
+	  "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment",
+	  "args": { "block": false } },
+	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment",
+	  "args": { "block": true } },
+	
+	// Unbind defaults
+	{ "keys": ["ctrl+shift+k"], "command": null	},
+	{ "keys": ["ctrl+shift+up"], "command": null },
+	{ "keys": ["ctrl+shift+down"], "command": null },
+	{ "keys": ["ctrl+/"], "command": null },
+	{ "keys": ["ctrl+shift+/"], "command": null }
 ]

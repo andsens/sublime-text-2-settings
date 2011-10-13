@@ -1,7 +1,6 @@
 {
 	"ignored_packages":
 	[
-		"Vintage",
-		"SublimeCodeIntel"
+		"Vintage"
 	]
 }
