@@ -1,0 +1,5 @@
+{
+	"cmd": ["/usr/texbin/latex", "$file_base_name"],
+	"selector": "source.tex",
+	"working_dir": "${project_path:${folder:${file_path}}}"
+}
