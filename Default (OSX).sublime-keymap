@@ -13,6 +13,9 @@
 	{ "keys": ["super+alt+c"], "command": "toggle_comment",
 	  "args": { "block": true } },
 	
+	// Plugins
+	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
+	
 	// Unbind defaults
 	{ "keys": ["super+ctrl+p"], "command": null },
 	{ "keys": ["super+forward_slash"], "command": null },
@@ -25,5 +28,6 @@
 	{ "keys": ["ctrl+d"], "command": null },
 	{ "keys": ["ctrl+shift+c"], "command": null },
 	{ "keys": ["ctrl+alt+c"], "command": null }
+	{ "keys": ["ctrl+alt+d"], "command": null }
 	
 ]

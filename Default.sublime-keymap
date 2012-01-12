@@ -7,7 +7,10 @@
 	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment",
 	  "args": { "block": false } },
 	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment",
-	  "args": { "block": true } },
+	"args": { "block": true } },
+	
+	// Plugins
+	{ "keys": ["ctrl+alt+d"], "command": "goto_documentation" },
 	
 	// Unbind defaults
 	{ "keys": ["ctrl+shift+k"], "command": null	},
