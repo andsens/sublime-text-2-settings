@@ -1,2 +1,32 @@
 [
+	// General re-bindings
+	
+	
+	
+	// Line & block manipulation
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+shift+up"], "command": null },
+	
+	{ "keys": ["alt+down"], "command": "swap_line_down"	},
+	{ "keys": ["ctrl+shift+down"], "command": null },
+	
+	{ "keys": ["ctrl+d"], "command": "run_macro_file",
+	  "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+k"], "command": null	},
+	
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment",
+	  "args": { "block": false } },
+	{ "keys": ["ctrl+/"], "command": null },
+	
+	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment",
+	"args": { "block": true } },
+	{ "keys": ["ctrl+shift+/"], "command": null },
+	
+	{ "keys": ["ctrl+shift+a"], "command": "find_under_expand" },
+	// { "keys": ["ctrl+d"], "command": null } Rebound to "delete line"
+	
+	// Plugins
+	{ "keys": ["ctrl+alt+d"], "command": "goto_documentation" },
+	{ "keys": ["ctrl+alt+a"], "command": "alignment" }
+	
 ]
