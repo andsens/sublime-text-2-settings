@@ -27,7 +27,7 @@
 	// Unbind base
 	{ "keys": ["ctrl+d"], "command": null },
 	{ "keys": ["ctrl+shift+c"], "command": null },
-	{ "keys": ["ctrl+alt+c"], "command": null }
+	{ "keys": ["ctrl+alt+c"], "command": null },
 	{ "keys": ["ctrl+alt+d"], "command": null }
 	
 ]
