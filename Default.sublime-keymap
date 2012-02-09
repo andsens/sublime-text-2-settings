@@ -11,11 +11,15 @@
 	
 	// Plugins
 	{ "keys": ["ctrl+alt+d"], "command": "goto_documentation" },
+	{ "keys": ["ctrl+shift+a"], "command": "alignment" },
 	
 	// Unbind defaults
 	{ "keys": ["ctrl+shift+k"], "command": null	},
 	{ "keys": ["ctrl+shift+up"], "command": null },
 	{ "keys": ["ctrl+shift+down"], "command": null },
 	{ "keys": ["ctrl+/"], "command": null },
-	{ "keys": ["ctrl+shift+/"], "command": null }
+	{ "keys": ["ctrl+shift+/"], "command": null },
+	
+	// Unbind plugins
+	{ "keys": ["ctrl+alt+a"], "command": null }
 ]

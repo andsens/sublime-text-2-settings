@@ -15,6 +15,7 @@
 	
 	// Plugins
 	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
+	{ "keys": ["super+shift+a"], "command": "alignment" },
 	
 	// Unbind defaults
 	{ "keys": ["super+ctrl+p"], "command": null },
@@ -27,7 +28,10 @@
 	// Unbind base
 	{ "keys": ["ctrl+d"], "command": null },
 	{ "keys": ["ctrl+shift+c"], "command": null },
-	{ "keys": ["ctrl+alt+c"], "command": null }
-	{ "keys": ["ctrl+alt+d"], "command": null }
+	{ "keys": ["ctrl+alt+c"], "command": null },
+	{ "keys": ["ctrl+alt+d"], "command": null },
+	
+	// Unbind plugins
+	{ "keys": ["super+ctrl+a"], "command": null }
 	
 ]
