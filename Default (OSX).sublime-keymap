@@ -1,37 +1,32 @@
 [
-	// General bindings
+	// General re-bindings
 	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
-	{ "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["super+ctrl+p"], "command": null },
 	
 	// Line & block manipulation
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+super+up"], "command": null },
+	
+	{ "keys": ["alt+down"], "command": "swap_line_down"	},
+	{ "keys": ["ctrl+super+down"], "command": null },
+	
 	{ "keys": ["super+d"], "command": "run_macro_file",
 	  "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+shift+k"], "command": null	},
 	
 	{ "keys": ["super+shift+c"], "command": "toggle_comment",
 	  "args": { "block": false } },
+	{ "keys": ["super+forward_slash"], "command": null },
 	
 	{ "keys": ["super+alt+c"], "command": "toggle_comment",
 	  "args": { "block": true } },
+	{ "keys": ["super+alt+forward_slash"], "command": null },
+	  
+	{ "keys": ["super+shift+a"], "command": "find_under_expand" },
+	{ "keys": ["super+d"], "command": null },
 	
 	// Plugins
 	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
-	{ "keys": ["super+shift+a"], "command": "alignment" },
-	
-	// Unbind defaults
-	{ "keys": ["super+ctrl+p"], "command": null },
-	{ "keys": ["super+forward_slash"], "command": null },
-	{ "keys": ["super+alt+forward_slash"], "command": null },
-	{ "keys": ["ctrl+super+up"], "command": null },
-	{ "keys": ["ctrl+super+down"], "command": null },
-	// { "keys": ["super+shift+p"], "command": null },
-	
-	// Unbind base
-	{ "keys": ["ctrl+d"], "command": null },
-	{ "keys": ["ctrl+shift+c"], "command": null },
-	{ "keys": ["ctrl+alt+c"], "command": null },
-	{ "keys": ["ctrl+alt+d"], "command": null },
-	
-	// Unbind plugins
-	{ "keys": ["super+ctrl+a"], "command": null }
-	
+	{ "keys": ["super+alt+a"], "command": "alignment" },
+	{ "keys": ["super+ctrl+a"], "command": null },
 ]
