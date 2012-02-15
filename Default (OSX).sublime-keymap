@@ -28,5 +28,5 @@
 	// Plugins
 	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
 	{ "keys": ["super+alt+a"], "command": "alignment" },
-	{ "keys": ["super+ctrl+a"], "command": null },
+	{ "keys": ["super+ctrl+a"], "command": null }
 ]
