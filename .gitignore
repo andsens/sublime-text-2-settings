@@ -2,3 +2,4 @@
 *.sublime-project
 Package Control.sublime-settings
 .DS_Store
+BufferScroll.sublime-settings
