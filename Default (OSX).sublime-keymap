@@ -28,5 +28,6 @@
 	// Plugins
 	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
 	{ "keys": ["super+alt+a"], "command": "alignment" },
+	{ "keys": ["ctrl+alt+b"], "command": "git_branch" },
 	{ "keys": ["super+ctrl+a"], "command": null }
 ]
