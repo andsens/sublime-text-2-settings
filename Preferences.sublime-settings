@@ -7,10 +7,10 @@
 	// Style
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"font_face": "Bitstream Vera Sans Mono",
-	"font_size": 13.0,
+	"font_options": [ "subpixel_antialias" ],
 	"margin": -16,
 	"tab_size": 2,
-	"draw_white_space": true,
+	"draw_white_space": "selection",
 	"highlight_line": true,
 	
 	// Inner workings
