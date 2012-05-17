@@ -1,0 +1,6 @@
+{
+	"spell_check": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"rulers": [80],
+	"font_face": "Bitstream Vera Sans Mono"
+}
