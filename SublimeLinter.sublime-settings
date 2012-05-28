@@ -1,0 +1,13 @@
+{
+	// An array of linter names to disable. Names should be lowercase.
+	"sublimelinter_disable":
+	[
+		// "PEP 8"
+	],
+	"pep8_ignore":
+	[
+		"E501",
+		"W191",
+		"W293"
+	]
+}
