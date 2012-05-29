@@ -1,5 +1,7 @@
 {
-	"cmd": ["/usr/texbin/latex", "$file_base_name"],
+	"cmd": ["make"],
 	"selector": "source.tex",
-	"working_dir": "${project_path:${folder:${file_path}}}"
+	"osx": {
+		"path": "/bin/:/usr/bin/:/usr/texbin/:/usr/local/bin"
+	}
 }
