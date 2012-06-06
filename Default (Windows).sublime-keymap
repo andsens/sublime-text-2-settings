@@ -4,6 +4,8 @@
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 	
 	
+	
+	
 	// Line & block manipulation
 	{ "keys": ["alt+up"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+shift+up"], "command": null },
