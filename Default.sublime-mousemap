@@ -1,0 +1,5 @@
+[
+	// Switch files by holding down button 2, and using the scroll wheel
+	{ "button": "scroll_down", "modifiers": ["alt"], "command": "next_view" },
+	{ "button": "scroll_up", "modifiers": ["alt"], "command": "prev_view" }
+]
