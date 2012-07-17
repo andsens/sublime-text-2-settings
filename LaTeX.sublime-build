@@ -1,5 +1,5 @@
 {
-	"cmd": ["make"],
+	"cmd": ["latexmk", "${file_path}/${file_base_name}", "-pdf"],
 	"selector": "source.tex",
 	"osx": {
 		"path": "/bin/:/usr/bin/:/usr/texbin/:/usr/local/bin"
