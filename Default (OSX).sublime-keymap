@@ -6,6 +6,13 @@
 	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
 	{ "keys": ["super+ctrl+p"], "command": null },
 	
+	{ "keys": ["super+shift+t"], "command": "reopen_last_file" },
+	
+	// Swap find_in_files and replace
+	{ "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "replace"} },
+	{ "keys": ["super+alt+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	
+	{ "keys": ["super+shift+e"], "command": "replace_next" },
 	// Line & block manipulation
 	{ "keys": ["alt+up"], "command": "swap_line_up" },
 	{ "keys": ["ctrl+super+up"], "command": null },
