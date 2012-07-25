@@ -24,7 +24,12 @@
 	{ "keys": ["ctrl+shift+/"], "command": null },
 	
 	{ "keys": ["ctrl+shift+a"], "command": "find_under_expand" },
-	// { "keys": ["ctrl+d"], "command": null } Rebound to "delete line"
+	
+	{ "keys": ["ctrl+shift+["], "command": null },
+	{ "keys": ["ctrl+shift+]"], "command": null },
+	{ "keys": ["ctrl+-"], "command": "fold" },
+	{ "keys": ["ctrl+="], "command": "unfold" },
+	{ "keys": ["ctrl+shift+="], "command": "unfold_all" },
 	
 	// Plugins
 	{ "keys": ["ctrl+alt+d"], "command": "goto_documentation" },
