@@ -35,6 +35,9 @@
 	{ "keys": ["super+shift+a"], "command": "find_under_expand" },
 	{ "keys": ["super+d"], "command": null },
 	
+	{ "keys": ["ctrl+t"], "command": "transpose" },
+	{ "keys": ["super+t"], "command": "transpose" },
+	
 	// Plugins
 	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
 	{ "keys": ["super+alt+a"], "command": "alignment" },
