@@ -2,7 +2,7 @@
 	// General re-bindings
 	{ "keys": ["ctrl+tab"], "command": "next_view" },
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
-	
+	{ "keys": ["ctrl+alt+space"], "command": "toggle_side_bar" },
 	
 	
 	
