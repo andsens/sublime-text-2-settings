@@ -17,7 +17,8 @@
 	[
 		"Vintage"
 	],
-	"margin": -16,
+	"fold_buttons": false,
+	"margin": 0,
 	"remember_open_files": true,
 	"rulers":
 	[
