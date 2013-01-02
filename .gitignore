@@ -4,3 +4,5 @@ Package Control.sublime-settings
 .DS_Store
 BufferScroll.sublime-settings
 BufferScroll.bin.gz
+SublimeREPLHistory
+Package Control.last-run
