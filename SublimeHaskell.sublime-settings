@@ -1,0 +1,8 @@
+{
+	// Enable auto completion of module imports
+	"auto_complete_imports": true,
+
+	// Enable auto completion of LANGUAGE pragmas
+	"auto_complete_language_pragmas": true
+	// "add_to_PATH": ["/Users/anders/.cabal/bin/"]
+}
