@@ -1,5 +1,8 @@
 {
-	"cmd": ["latexmk", "${file_path}/${file_base_name}", "-pdf"],
+	"cmd": ["latexmk",
+		"-e", "\\$pdflatex = 'pdflatex %O -synctex=1 %S'",
+		"-silent",
+		"-f", "-pdf"],
 	"selector": "source.tex",
 	"osx": {
 		"path": "/bin/:/usr/bin/:/usr/texbin/:/usr/local/bin"
