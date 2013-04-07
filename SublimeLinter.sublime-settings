@@ -12,5 +12,51 @@
 		"E501",
 		"W191",
 		"W293"
-	]
+	],
+	
+	"jshint_options":
+	{
+		"indent": 1
+	},
+	
+	// CSSLint options:
+	// Each rule can have three values: error|warning|true|false
+	// false => rule is disabled.
+	// true => alias to 'error'
+	// All rules are enabled by default.
+	// Currently the only difference between warnings and errors is in the prefix of the message in the Sublime status bar.
+	"csslint_options":
+	{
+		"adjoining-classes": false,
+		"box-model": false,
+		"box-sizing": false,
+		"compatible-vendor-prefixes": false,
+		"display-property-grouping": false,
+		"duplicate-background-images": false,
+		"duplicate-properties": false,
+		"empty-rules": false,
+		"errors": false,
+		"fallback-colors": false,
+		"floats": false,
+		"font-faces": false,
+		"font-sizes": false,
+		"gradients": false,
+		"ids": false,
+		"import": false,
+		"important": false,
+		"known-properties": false,
+		"outline-none": false,
+		"overqualified-elements": false,
+		"qualified-headings": false,
+		"regex-selectors": false,
+		"rules-count": false,
+		"shorthand": false,
+		"star-property-hack": false,
+		"text-indent": false,
+		"underscore-property-hack": false,
+		"unique-headings": false,
+		"universal-selector": false,
+		"vendor-prefix": false,
+		"zero-units": false
+	}
 }
