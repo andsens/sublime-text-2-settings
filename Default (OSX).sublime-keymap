@@ -21,9 +21,8 @@
 	{ "keys": ["alt+down"], "command": "swap_line_down"	},
 	{ "keys": ["ctrl+super+down"], "command": null },
 	
-	{ "keys": ["super+d"], "command": "run_macro_file",
+	{ "keys": ["super+alt+d"], "command": "run_macro_file",
 	  "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-	{ "keys": ["ctrl+shift+k"], "command": null	},
 	
 	{ "keys": ["super+shift+c"], "command": "toggle_comment",
 	  "args": { "block": false } },
@@ -33,9 +32,6 @@
 	  "args": { "block": true } },
 	{ "keys": ["super+alt+forward_slash"], "command": null },
 	  
-	{ "keys": ["super+shift+a"], "command": "find_under_expand" },
-	{ "keys": ["super+d"], "command": null },
-	
 	{ "keys": ["ctrl+t"], "command": "transpose" },
 	{ "keys": ["super+t"], "command": "transpose" },
 	
@@ -69,8 +65,5 @@
 	},
 	
 	// Plugins
-	{ "keys": ["super+alt+d"], "command": "goto_documentation" },
 	{ "keys": ["super+alt+a"], "command": "alignment" },
-	{ "keys": ["ctrl+alt+b"], "command": "git_branch" },
-	{ "keys": ["super+ctrl+a"], "command": null }
 ]

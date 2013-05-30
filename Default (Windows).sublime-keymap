@@ -13,25 +13,52 @@
 	{ "keys": ["alt+down"], "command": "swap_line_down"	},
 	{ "keys": ["ctrl+shift+down"], "command": null },
 	
-	{ "keys": ["ctrl+d"], "command": "run_macro_file",
+	{ "keys": ["ctrl+alt+d"], "command": "run_macro_file",
 	  "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["ctrl+shift+k"], "command": null	},
 	
 	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment",
 	  "args": { "block": false } },
-	{ "keys": ["ctrl+/"], "command": null },
 	
 	{ "keys": ["ctrl+alt+c"], "command": "toggle_comment",
 	"args": { "block": true } },
-	{ "keys": ["ctrl+shift+/"], "command": null },
 	
-	{ "keys": ["ctrl+shift+a"], "command": "find_under_expand" },
-	
-	{ "keys": ["ctrl+shift+["], "command": null },
-	{ "keys": ["ctrl+shift+]"], "command": null },
 	{ "keys": ["ctrl+-"], "command": "fold" },
 	{ "keys": ["ctrl+="], "command": "unfold" },
 	{ "keys": ["ctrl+shift+="], "command": "unfold_all" },
+
+	// Layout management
+
+	{ "keys": ["ctrl+k", "."],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{ "keys": ["ctrl+k", "|"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{ "keys": ["ctrl+k", "_"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.5, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+
+	// Plugins
+	
 	// Auto-pair single quotes
 	{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
 		[
@@ -62,11 +89,6 @@
 			{ "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
 			{ "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
 		]
-	},
-	
-	// Plugins
-	{ "keys": ["ctrl+alt+d"], "command": "goto_documentation" },
-	{ "keys": ["ctrl+alt+a"], "command": "alignment" },
-	{ "keys": ["ctrl+alt+b"], "command": "git_branch" }
+	}
 	
 ]
