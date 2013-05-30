@@ -42,7 +42,7 @@
 	{ "keys": ["super+alt+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["super+alt+down"], "command": "select_lines", "args": {"forward": true} },
 	
-	{ "keys": ["super+shift+i"], "command": "haskell_insert_type", "context": "source.haskell" },
+	{ "keys": ["super+shift+i"], "command": "sublime_haskell_insert_type", "context": "source.haskell" },
 	
 	// Auto-pair single quotes
 	{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
