@@ -65,5 +65,5 @@
 	},
 	
 	// Plugins
-	{ "keys": ["super+alt+a"], "command": "alignment" },
+	{ "keys": ["super+alt+a"], "command": "alignment" }
 ]
